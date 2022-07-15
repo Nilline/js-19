@@ -22,7 +22,7 @@
 		Проверить, чтобы все работало без ошибок в консоли */
 
 'use strict';
-
+/*
 let numberOfFilms;
 
 function start() {
@@ -89,8 +89,8 @@ function whiteYourGenres() {
 		}
 	}
 }
-// whiteYourGenres();
-
+whiteYourGenres();
+*/
 
 /*
 console.log(NaN || 2 || undefined);
@@ -301,3 +301,34 @@ figure2();
 // 	}
 // 	return result;
 // }
+
+// 30 LESSON PRACTICE
+/*
+// Место для первой задачи
+function calculateVolumeAndArea(num) {
+	let result = '';
+	if (Number.isInteger(num) && num > 0) { //Проверка есть ли дробные значения
+		result = `Объем куба: ${num * num * num}, площадь всей поверхности: ${num * num * 6}`;
+	} else {
+		result = 'При вычислении произошла ошибка';
+	}
+	return result;
+}
+console.log(calculateVolumeAndArea(5));
+
+// Место для второй задачи
+function getCoupeNumber(num) {
+	if (num > 0 && num <= 36 && Number.isInteger(num) && !isNaN(num)) {
+		for (let i = 4; i <= 36; i = i + 4) {
+			if (num <= i) {
+				return i / 4;
+			}
+		}
+	} else if (isNaN(num) || !Number.isInteger(num) || num < 0) {
+		return 'Ошибка. Проверьте правильность введенного номера места';
+	} else {
+		return 'Таких мест в вагоне не существует';
+	}
+}
+console.log(getCoupeNumber(1.1));
+*/

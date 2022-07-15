@@ -332,3 +332,44 @@ function getCoupeNumber(num) {
 }
 console.log(getCoupeNumber(1.1));
 */
+
+
+// 31 LESSON PRACTICE
+
+// Место для первой задачи
+function getTimeFromMinutes(time) {
+	let hours = Math.floor(time / 60),
+		minutes = Math.floor(time % 60),
+		str = '';
+
+	if (time < 0 || !Number.isInteger(time) || typeof time !== 'number') {
+		return 'Ошибка, проверьте данные';
+	}
+
+	switch (hours) {
+		case 0:
+			str = 'часов';
+			break;
+		case 1:
+			str = 'час';
+			break;
+		case 2:
+		case 3:
+		case 4:
+			str = 'часа';
+			break;
+		default:
+			str = 'часов';
+	}
+	return `Это ${hours} ${str} и ${minutes} минут`;
+}
+console.log(getTimeFromMinutes(390));
+// Место для второй задачи
+function findMaxNumber(a, b, c, d) {
+	if (typeof a !== 'number' || typeof b !== 'number' || typeof c !== 'number' || typeof d !== 'number') {
+		return 0;
+	}
+	let result = Math.max(a, b, c, d);
+	return result;
+}
+console.log(findMaxNumber(2, 5, 555.5, 62));

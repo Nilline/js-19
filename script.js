@@ -335,7 +335,7 @@ console.log(getCoupeNumber(1.1));
 
 
 // 31 LESSON PRACTICE
-
+/*
 // Место для первой задачи
 function getTimeFromMinutes(time) {
 	let hours = Math.floor(time / 60),
@@ -373,3 +373,28 @@ function findMaxNumber(a, b, c, d) {
 	return result;
 }
 console.log(findMaxNumber(2, 5, 555.5, 62));
+*/
+
+// 32 LESSON PRACTICE - ЦИФРЫ ФИБОНАЧЧИ
+function fib(firstNum) {
+	let a = 0;
+	let b = 1;
+	let result = '';
+	if (typeof firstNum == 'number' && Number.isInteger(firstNum)) {
+		for (let i = 0; i < firstNum; i++) {
+			
+			if (i == 0) {
+				result += `${a}`;
+			} else if (i == 1) {
+				result += ` ${b}`;
+			} else if (i > 1) {
+				let intermediate = a + b;
+				a = b;
+				b = intermediate;
+				result += ` ${intermediate}`;
+			}
+		}
+	}
+	return result;
+}
+console.log(fib(3));

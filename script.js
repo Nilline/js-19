@@ -6,15 +6,15 @@
 2) Создать объект personalMovieDB и в него поместить такие свойства:
 - count - сюда передается ответ на первый вопрос
 - movies - в это свойство поместить пустой объект
-    - actors - тоже поместить пустой объект
-    - genres - сюда поместить пустой массив
-    - privat - в это свойство поместить boolean(логическое) значение false
+- actors - тоже поместить пустой объект
+- genres - сюда поместить пустой массив
+- privat - в это свойство поместить boolean(логическое) значение false
 	 
-	 3) Задайте пользователю по два раза вопросы:
-    - 'Один из последних просмотренных фильмов?'
-    - 'На сколько оцените его?'
-	 Ответы стоит поместить в отдельные переменные
-	 Записать ответы в объект movies в формате: 
+3) Задайте пользователю по два раза вопросы:
+- 'Один из последних просмотренных фильмов?'
+- 'На сколько оцените его?'
+Ответы стоит поместить в отдельные переменные
+Записать ответы в объект movies в формате: 
     movies: {
 		 'logan': '8.1'
 		}
@@ -23,8 +23,8 @@
 
 'use strict';
 /*
-let numberOfFilms;
-
+		let numberOfFilms;
+		
 function start() {
 	numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
@@ -45,7 +45,7 @@ const personalMovieDB = {
 
 function rememberMyFilms() {
 	for (let i = 0; i < 2; i++) {
-		const a = prompt('Один из последних просмотренных фильмов?', ''),
+		const a = prompt('Один из последних просмотренных фильмов?', '').trim(), // - Метод trim удаляет пробелы в начале и конце строки
 			b = prompt('На сколько оцените его?', '');
 
 		if (a != null && b != null && a != '' && b != '' && a.length < 50) {
@@ -376,13 +376,14 @@ console.log(findMaxNumber(2, 5, 555.5, 62));
 */
 
 // 32 LESSON PRACTICE - ЦИФРЫ ФИБОНАЧЧИ
+/*
 function fib(firstNum) {
 	let a = 0;
 	let b = 1;
 	let result = '';
 	if (typeof firstNum == 'number' && Number.isInteger(firstNum)) {
 		for (let i = 0; i < firstNum; i++) {
-			
+
 			if (i == 0) {
 				result += `${a}`;
 			} else if (i == 1) {
@@ -398,3 +399,6 @@ function fib(firstNum) {
 	return result;
 }
 console.log(fib(3));
+*/
+
+// 35 LESSON PRACTICE - Работа с обьектами

@@ -97,7 +97,7 @@
 
 // personalMovieDB.toggleVisibleMyDB();
 
-personalMovieDB.whiteYourGenres();
+// personalMovieDB.whiteYourGenres();
 
 /*
 console.log(NaN || 2 || undefined);

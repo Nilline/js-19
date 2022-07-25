@@ -68,6 +68,7 @@ console.log(standardizeStrings(family));
 
 // Practice 3
 
+/*
 const someString = 'This is some strange string';
 
 function reverse(str) {
@@ -96,3 +97,4 @@ function availableCurr(arr, missingCurr) {
 	return result;
 }
 console.log(availableCurr([...baseCurrencies, ...additionalCurrencies], 'USD'));
+*/

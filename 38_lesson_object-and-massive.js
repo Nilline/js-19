@@ -70,6 +70,7 @@ isBudgetEnough(shoppingMallData);
 
 // Lesson 38 practice (objects and massive)
 
+/*
 const students = ['Peter', 'Andrew', 'Ann', 'Mark', 'Josh', 'Sandra', 'Cris', 'Bernard', 'Takesi', 'Sam'];
 
 function sortStudentsByGroups(arr) {
@@ -97,3 +98,4 @@ function sortStudentsByGroups(arr) {
 }
 
 console.log(sortStudentsByGroups(students));
+*/

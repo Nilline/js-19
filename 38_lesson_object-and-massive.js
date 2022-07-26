@@ -1,4 +1,4 @@
-// Lesson 38 practice (objects)
+// Lesson 38 practice (objects and massive)
 
 /*
 const shoppingMallData = {
@@ -67,3 +67,33 @@ function isBudgetEnough(data) {
 
 isBudgetEnough(shoppingMallData);
 */
+
+// Lesson 38 practice (objects and massive)
+
+const students = ['Peter', 'Andrew', 'Ann', 'Mark', 'Josh', 'Sandra', 'Cris', 'Bernard', 'Takesi', 'Sam'];
+
+function sortStudentsByGroups(arr) {
+
+	const array = [];
+	let team = [],
+		rest = [];
+
+	arr.sort().forEach((person, i) => {
+		team.push(person);
+		if (arr.length - i <= 2 && team.length !== 3) {
+			rest.push(person);
+		}
+
+		if (team.length === 3) {
+			array.push(team);
+			team = [];
+			if (rest.length) {
+				rest = [];
+			}
+		}
+
+	});
+	return [...array,`Оставшиеся студенты: ${rest.length ? rest.join(', ') : '-'}`];
+}
+
+console.log(sortStudentsByGroups(students));

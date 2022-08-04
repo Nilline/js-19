@@ -112,4 +112,4 @@ function calcFuctorialNumber(num) {
 	// return n ? n * calcFuctorialNumber(n - 1) : 1;
 }
 
-console.log(calcFuctorialNumber(4));
+// console.log(calcFuctorialNumber(4));

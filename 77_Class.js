@@ -21,14 +21,14 @@ class ColoredRecrangleWithText extends Rectangle {
 	}
 
 	showMyProps() {
-		console.log(`Текст ${this.text}, фон: ${this.bgColor}`);
+		// console.log(`Текст ${this.text}, фон: ${this.bgColor}`);
 	}
 }
 
 const div = new ColoredRecrangleWithText(25, 10, 'Hello World', 'red');
 
 div.showMyProps();
-console.log(div.calcArea());
+// console.log(div.calcArea());
 
 // const square = new Rectangle(10,5);
 // const long = new Rectangle(100,5000);

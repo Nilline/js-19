@@ -68,7 +68,7 @@ function isBudgetEnough(data) {
 isBudgetEnough(shoppingMallData);
 */
 
-// Lesson 38 practice (objects and massive)
+// !Lesson 38 practice (objects and massive)
 
 /*
 const students = ['Peter', 'Andrew', 'Ann', 'Mark', 'Josh', 'Sandra', 'Cris', 'Bernard', 'Takesi', 'Sam'];

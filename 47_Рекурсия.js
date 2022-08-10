@@ -95,7 +95,7 @@ let result = getTotalProgressByRecursion(students);
 
 // console.log(result[0]/result[1]);
 
-// Факториал
+// !Факториал
 
 function calcFuctorialNumber(num) {
 	if (typeof (num) == 'number' && Number.isInteger(num)) {

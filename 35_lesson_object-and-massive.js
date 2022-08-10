@@ -43,7 +43,7 @@ function showProgrammingLangs(plan) {
 console.log(showProgrammingLangs(personalPlanPeter));
 */
 
-// Practice 2
+// !Practice 2
 /*
 const family = ['Peter', 'Ann', 'Alex', 'Linda'];
 
@@ -66,7 +66,7 @@ function standardizeStrings(arr) {
 console.log(standardizeStrings(family));
 */
 
-// Practice 3
+// !Practice 3
 
 /*
 const someString = 'This is some strange string';

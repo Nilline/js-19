@@ -1,5 +1,5 @@
 "use strict";
-// Lesson 40 Замыкание
+// !Lesson 40 Замыкание
 
 // function createCounter() {
 // 	let counter = 0;
